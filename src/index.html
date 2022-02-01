@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calling system</title>
+</head>
+<body>
+<div class="page">
+    <section id="app1">
+        <div id="screen"></div>
+        <div class="actions">
+            <button id="createNumber">取号</button>
+            <button id="callNumber">叫号</button>
+        </div>
+        <div>
+            当前号码 <span id="newNumber"></span>
+        </div>
+        <div>
+            当前队列 <span id="queue"></span>
+        </div>
+    </section>
+    <section id="app2">
+        <div id="action">
+            <button id="enter">进电梯</button>
+            <button id="exit">出电梯</button>
+        </div>
+        <div id="elevator"> 当前栈 <span id="stack"></span></div>
+    </section>
+    <section class="app3"></section>
+</div>
+
+
+<script src="./main.js"></script>
+</body>
+</html>

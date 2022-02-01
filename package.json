@@ -1,0 +1,9 @@
+{
+  "name": "calling-system",
+  "scripts": {
+    "build": "rm -rf dist && rm -rf .cache && parcel build src/index.html --no-minify --public-url ./"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
